@@ -1,0 +1,41 @@
+ <div class="panel-heading">
+                    <img src="159732.jpg" height="150" width="150" alt="" id="img">
+                </div>
+                <img src="159732.jpg" height="150" width="150" alt="" id="img">
+
+
+$("#About").click(()=>{
+        alert('heoolo')
+        $("#modal").modal('slow')
+    })
+     $
+
+
+                 top: 34%;
+    position: absolute;
+    z-index: -1;
+
+
+
+       <div class="container">
+        <div class="row">
+            <div class="col-lg-6 bg-kjdfvi">
+                <center><img src="4448.jpg" alt="sary" width="90" height="90" id="img"></center>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 bg-sucess">
+                <center>
+                    <h1>Nom</h1>
+                </center>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 bg-danger">
+                <div>
+                    <center><h3><a href="#"><strong>About</strong></a>
+                        <a href="#"><strong>Photos</strong></h3></a></center>
+                </div>  
+            </div>
+        </div>
+    </div>
