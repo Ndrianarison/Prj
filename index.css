@@ -1,0 +1,53 @@
+/* #img{
+    border-radius: 100px;
+    right: 43%;
+    bottom: 99%;
+    position: absolute;
+}
+.profil{
+   height: 550px;
+    width: 550px;
+    background-color: aqua;
+    z-index: -1;
+}
+#body1{
+    background-color: darkcyan;
+}
+body{
+    background-color: darkslategrey;
+}
+.container{
+    margin-top: 10cm;
+}*/
+#img1{
+    width:70px; 
+    height:70px;
+    left: 45%;
+    border-radius: 100px;
+    bottom: 91%;
+    position: absolute;
+} 
+#img2{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-bottom: 10cm;
+    margin: -15px;
+}
+/* .modal{
+    margin-top: 2%;
+}
+.modal-content{
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-top: 0px;
+}
+.modal-dialog{
+    margin-top:2.4%;
+}
+.container{
+    margin-top: 10px;
+}*/
+.jumbotron{
+    margin: Ocm;
+} 

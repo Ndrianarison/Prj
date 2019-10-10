@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrapII.css">
+    
+    <script src="./bootstrap/jquery.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+        <nav id="navbar-example2" class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#"><img src="logo.png" id="img2" alt="hack" height="20" width="20"></a>
+                <ul class="nav nav-pills-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Acceuil </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="us.html">About Us </a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="index.php">Service </a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Profils</a>
+                    </li>
+                        <li class="nav-link">
+                            <a href="login.php">Sign in</a>
+                        </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle btn btn-bg-danger" data-toggle="dropdown" href="#" role="button"
+                            aria-haspopup="true" aria-expanded="false">Parametre</a>
+                        <div class="dropdown-menu">
+                        
+                            <a class="dropdown-item" href="#"  data-toggle="modal"
+                            data-target="#myModal"><strong> S'inscrire</strong></a>
+                            <a class="dropdown-item" href="us.html"> <strong>A propos</strong> </a>
+                            <div role="separator" class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="deconnection.php">Deconnexion</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div id="myModal" class="modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-heading">
+                <center><img src="logo.png" alt="pdp" id="img1"></center>
+              </div>
+              <div class="modal-body">
+                <div class="box">
+                  <h2><b>Creer Compte</b></h2>
+                  <form>
+                      <div>
+                          <table>
+                              <tr>
+                                  <td><input type="text" name="" class="form-control" placeholder="Enter your name"></td>
+                                  <td><input type="text" name="" class="form-control" placeholder="Enter your Firstname"></td>
+                              </tr>
+                          </table>
+                      </div>
+                      <div><br>
+                          <input type="mail" name="emil" class="form-control" placeholder="Enter your Mail">
+                      </div><br> 
+                      <input type="radio" name="sexe" id="fem"><label for="sexe">Homme</label>
+                      <input type="radio" name="sexe" id="hom"><label for="sexe">Femme</label><br>
+                      <label for="date">Date de Naissance</label>
+                      <select id="day">
+                          <option name="" id=""></option>
+                          <option name="" id="">1</option>
+                          <option name="" id="">É</option>
+                          <option name="" id="">2</option>
+                          <option name="" id="">3</option>
+                          <option name="" id="">4</option>
+                          <option name="" id="">5</option>
+                          <option name="" id="">6</option>
+                          <option name="" id="">7</option>
+                          <option name="" id="">8</option>
+                          <option name="" id="">9</option>
+                          <option name="" id="">10</option>
+                          <option name="" id="">11</option>
+                          <option name="" id="">12</option>
+                          <option name="" id="">13</option>
+                          <option name="" id="">14</option>
+                          <option name="" id="">15</option>
+                          <option name="" id="">16</option>
+                          <option name="" id="">17</option>
+                          <option name="" id="">18</option>
+                          <option name="" id="">19</option>
+                          <option name="" id="">20</option>
+                          <option name="" id="">21</option>
+                          <option name="" id="">22</option>
+                          <option name="" id="">23</option>
+                          <option name="" id="">24</option>
+                          <option name="" id="">25</option>
+                          <option name="" id="">26</option>
+                          <option name="" id="">27</option>
+                          <option name="" id="">28</option>
+                          <option name="" id="">29</option>
+                          <option name="" id="">30</option>
+                          <option name="" id="">31</option>
+                      </select>
+                      <select id="month" >
+                        <option name="" id=""></option>
+                        <option name="" id="">Janvier</option>
+                        <option name="" id="">Fevrier</option>
+                        <option name="" id="">Mars</option>
+                        <option name="" id="">Avril</option>
+                        <option name="" id="">Mai</option>
+                        <option name="" id="">Juin</option>
+                        <option name="" id="">Juillet</option>
+                        <option name="" id="">Août</option>
+                        <option name="" id="">Septembre</option>
+                        <option name="" id="">Octobre</option>
+                        <option name="" id="">Novembre</option>
+                        <option name="" id="">Decembre</option>
+                      </select>
+                      <select id="year">
+                          <option name="" id=""></option>
+                          <option name="" id="">1999</option>
+                          <option name="" id="">1998</option>
+                          <option name="" id="">1997</option>
+                          <option name="" id="">1996</option>
+                          <option name="" id="">1995</option>
+                          <option name="" id="">1994</option>
+                          <option name="" id="">1993</option>
+                          <option name="" id="">1992</option>
+                          <option name="" id="">1991</option>
+                          <option name="" id="">1990</option>
+                          <option name="" id="">1989</option>
+                      </select>
+                      <p>En appuyant sur Inscription, vous acceptez nos <a href="">Conditions générales</a> notre<a href=""> Politique d’utilisation</a> des données et notre et
+                      <a href="">Politique d’utilisation des cookies</a>. 
+                      Vous recevrez peut-être des notifications par texto de notre part et vous pouvez à tout moment vous désabonner.</p>
+                  </form>
+              </div>
+              </div>
+              <div class="modal-footer">
+                  <input type="submit" class="btn btn-success" value="Enregistrer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Annuler</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <!-- <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+        <?php
+        include('nav.php');
+       ?>
+    <div class="container-fluid a">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+
+                <form>
+                    <h1>Login</h1>
+                    <input type="text" name="name" class="question" id="nme" required autocomplete="off" />
+                    <label for="nme"><span>E-mail</span></label>
+                    <input type="password" name="message" class="question" id="msg" required autocomplete="off">
+                    <label for="msg" style="color: darkgreen"><span> Password</span></label>
+                    <input type="submit" value="Se connecter" class="btn btn-info" />
+                    <input type="button" value="forgot password" class="btn btn-info" />
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
